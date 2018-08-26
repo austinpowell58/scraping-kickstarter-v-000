@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-require "pry"
+require 'pry'
 
 html = File.read('fixtures/kickstarter.html')
 kickstarter = Nokogiri::HTML(html)
